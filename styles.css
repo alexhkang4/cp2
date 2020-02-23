@@ -1,0 +1,14 @@
+* {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+#holidayResults {
+  margin: 50px;
+}

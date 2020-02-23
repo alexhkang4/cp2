@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>National Holidays</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>All National Holidays</h1>
+  <form>
+    <label>Enter a country code</label><br/>
+    <input id="countryInput" type="text"></input><br/>
+    <label>Enter a year</label><br/>
+    <input id="yearInput" type="text"></input><br/>
+    <input id="infoSubmit" type="submit" value="Submit"></input>
+  </form>
+  <br/>
+  <div id="holidayResults">
+  </div>
+  <br/>
+  <footer>
+      <a href="https://github.com/alexhkang4/cp2">github link</a>
+    </footer>
+  <script src="https://date.nager.at/api/v2/publicholidays/2017/AT"></script>
+  <script text="type/javascript" src="script.js">
+  </script>
+
+</body>
+
+</html>
